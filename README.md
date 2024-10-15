@@ -2,16 +2,6 @@
 
 This repository contains a machine learning algorithm that predicts stock market movement (whether the market will go up or down) using swing points (highs and lows) and other technical indicators from historical market data.
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Fetching](#data-fetching)
-- [Machine Learning Model](#machine-learning-model)
-- [Example Output](#example-output)
-- [License](#license)
-
 ## Overview
 
 This project uses a **Random Forest Classifier** to predict the market's daily bias (up or down) based on historical stock market data. The algorithm analyzes swing highs and lows over a customizable period and incorporates whether these swing points have been raided (i.e., surpassed by another high/low) to generate additional predictive features.
